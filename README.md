@@ -27,7 +27,7 @@ Nothing more.
 ## How does it work?
 This project will not use any additional maven plugin or technology.
 
-Here we are using the JarkartaEE 8 server **TomEE** as Servlet-Container.
+Here we are using the Jakarta EE 8 server **TomEE** as Servlet-Container.
 [http://tomee.apache.org/](http://tomee.apache.org/)
 
 ## The UI itself
