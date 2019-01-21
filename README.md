@@ -24,9 +24,7 @@ Here you will get a HelloWorld-Project that will give you all in a second.
 Clone the repo and start editing the class ```VaadinApp```.
 Nothing more. 
 
-## How does it work?
-This project will not use any additional maven plugin or technology.
-
+## Used Servlet container?
 Here we are using the Jakarta EE 8 server **TomEE** as Servlet-Container.
 [http://tomee.apache.org/](http://tomee.apache.org/)
 
