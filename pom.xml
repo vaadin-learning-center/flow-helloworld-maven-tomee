@@ -23,9 +23,9 @@
 
 
   <parent>
-    <groupId>org.rapidpm</groupId>
-    <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
-    <version>04.01.06-RPM</version>
+    <groupId>com.github.vaadin-learning-center.vaadin-dependencies</groupId>
+    <artifactId>vaadin-dependencies-v14</artifactId>
+    <version>222bcc63</version>
   </parent>
 
 
@@ -78,6 +78,13 @@
     </license>
   </licenses>
 
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+
   <!--
 This section allows you to configure where to publish libraries for sharing.
 It is not required and may be deleted.  For more information see:
@@ -125,14 +132,6 @@ http://maven.apache.org/plugins/maven-deploy-plugin/
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-      </plugin>
-
       <plugin>
         <groupId>org.apache.tomee.maven</groupId>
         <artifactId>tomee-maven-plugin</artifactId>
